@@ -109,7 +109,7 @@ publishing {
 }
 
 signing {
-    sign(publishing.publications["mavenJava"])
+    sign(publishing.publications["mavenJavaa"])
 }
 
 tasks.withType<Test> {
